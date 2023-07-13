@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc add cissfin | gcc - E $cissfin-o $CFILE
+  
