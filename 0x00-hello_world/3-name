@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc CLIFE -o cisifun
+gcc $CLIFE -o cisifun
