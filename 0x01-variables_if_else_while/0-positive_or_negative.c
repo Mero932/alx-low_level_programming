@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/* main function to print numbers regardless the sign*/
+/* print numbers regardless the sign negative positive zero*/
 int main(void)
 {
 /* main function to print the numbers */
