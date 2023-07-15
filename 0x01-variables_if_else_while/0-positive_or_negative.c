@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-/* main function to print the numers */
+/* main function to print the numbers */
 	int n;
 
 	srand(time(0));
@@ -18,5 +18,6 @@ int main(void)
 	printf("%u is zero\n", n);
 	else
 	printf("%d is negative\n", n);
+/* that was to print the numbers regardless the sign */
 	return (0);
 }
