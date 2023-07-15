@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* main function to print numbers regardless the sign*/
 int main(void)
 {
 /* main function to print the numbers */
