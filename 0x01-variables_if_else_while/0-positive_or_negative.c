@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-unsigned int main(void)
+int main(void)
 {
 	unsigned int n;
 
