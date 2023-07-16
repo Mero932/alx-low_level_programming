@@ -7,10 +7,11 @@
 int main(void)
 {
 int32_t my_32bit_int;
-printf("%lu\n", sizeof(char));
+printf("%lu\n", sizeof(char);
 printf("%lu\n", sizeof(int));
+printf("%lu\n", sizeof(long int));
+printf("%lu\n", sizeof(long long int));
 printf("%lu\n", sizeof(float));
-printf("%lu\n", sizeof(double));
 
 int64_t my_64bit_int;
 printf("%lu\n", sizeof(char));
