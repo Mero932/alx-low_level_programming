@@ -6,8 +6,8 @@
 /* print numbers regardless the sign negative positive zero*/
 int main(void)
 {
-/* 
- * main function to print the numbers 
+/*
+ * main function to print the numbers
  */
 	int n;
 
