@@ -7,7 +7,7 @@
 int main(void)
 {
 int32_t my_32bit_int;
-printf("size of a char: %lu\t", sizeof(char), "\tbyte(s)");
+printf("size of a char: %lu \t byte(s)", sizeof(char));
 printf("%lu\n", sizeof(int));
 printf("%lu\n", sizeof(long int));
 printf("%lu\n", sizeof(long long int));
