@@ -4,14 +4,12 @@ int main (void)
 {
     int i = 0;
 
-    for (i = 0; i <9; i++)
+    for (i = 48; i <58; i++)
     {
-            putchar('0'+i);
-       
-            putchar(',');
-
+        while (i<57 )
+            Putchar('44')
+            putchar('32');
     }
-    putchar('!' + 24);
     putchar('!' + 3);
 
     return 0;
