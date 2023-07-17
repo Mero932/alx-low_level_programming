@@ -13,7 +13,6 @@ int main (void)
             putchar(32);
     }
     }
-    putchar('!' + 3);
-
+    
     return 0;
 }
