@@ -2,13 +2,13 @@
 
 int main (void)
 {
-    int i = 0;
+    int i;
 
     for (i = 48; i <58; i++)
     {
         while (i<57 )
-            Putchar('44')
-            putchar('32');
+            putchar(44);
+            putchar(32);
     }
     putchar('!' + 3);
 
