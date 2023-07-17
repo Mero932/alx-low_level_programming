@@ -33,7 +33,8 @@ printf("and is zero\n");
 }
 else if (n < 6)
 {
-printf("Last digit of %u\t", ld, "and is less than 6 and not 0\n");
+printf("Last digit of %u\t", ld);
+printf("and is less than 6 and not 0\n");
 }        
         return (0);
 }
