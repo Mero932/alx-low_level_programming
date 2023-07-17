@@ -11,7 +11,7 @@ int main(void)
 * main function to generate random number every time the program runs and print the last number 
 *
 */
-	
+
 int n;
 int ld;
 srand(time(0));
@@ -23,18 +23,15 @@ ld = n%10;
 
 if (n > 5)
 {
-printf("Last digit of %u", n);
-printf("and is greater than 5\n");
+printf("Last digit of %u is %u and is greater than 5\n",n,ld);
 }
 else if (n == 0)
 {
-printf("Last digit of %u", n);
-printf("and is zero\n");
+printf("Last digit of %u is %u and is zero\n",n,ld);
 }
 else if (n < 6)
 {
-printf("Last digit of %u", n);
-printf("and is less than 6 and not 0\n");
+printf("Last digit of %u is %u and is less than 6 and not 0\n",n,ld);
 }        
         return (0);
 }
