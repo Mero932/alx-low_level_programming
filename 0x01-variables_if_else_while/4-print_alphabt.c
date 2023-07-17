@@ -3,14 +3,11 @@
 
 /* print numbers regardless the sign negative positive zero*/
 int main(void) {
-int l;    
-    for( l = 0; 4 < l > 6 ; l++ )
-    {
-        putchar( 'a' + l );
-    
-    }
-    putchar( '\n' );
+int l;
+    for( l = 0; l < 26 ; l++ )
+    if (l != 4 && l != 16)
+    putchar( 'a' + l );
+    putchar ('\n');
 
     return 0;
 }
-
