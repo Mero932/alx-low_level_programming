@@ -12,8 +12,8 @@ int main(void)
 *
 */
 
-unsigned int n;
-int ld;
+signed int n;
+signed int ld;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
@@ -27,7 +27,7 @@ printf("Last digit of %u is %u and is greater than 5\n",n,ld);
 }
 else if (ld == 0)
 {
-printf("Last digit of %u is %u and is zero\n",n,ld);
+printf("Last digit of %u is %u and is 0\n",n,ld);
 }
 else if (ld < 6)
 {
