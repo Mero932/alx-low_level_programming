@@ -8,10 +8,6 @@
 
 int main(void)
 {
-/**
-* main - Entry point, integer n for the total value
-* Return: Always 0 (Success)
-*/
 
 signed int n;
 signed int ld;
