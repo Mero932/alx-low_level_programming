@@ -7,7 +7,7 @@
 int main(void)
 {
 /**
-* main - Entry point
+* main - Entry point, integer n for the total value
 * Return: Always 0 (Success)
 */
 
@@ -17,7 +17,6 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 
-/*n=abs(n);*/
 ld = n % 10;
 
 if (ld > 5)
@@ -31,6 +30,6 @@ printf("Last digit of %u is %u and is 0\n", n, ld);
 else if (ld < 6)
 {
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
-}        
+}
 return (0);
 }
