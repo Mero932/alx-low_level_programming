@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
-* - Entry point
+* printputchar - Entry point
+* Return: Always 0 (Success)
+*/
+/**
+* printputchar - Entry point
 * Return: Always 0 (Success)
 */
 void printPutchar(void)
@@ -15,7 +19,10 @@ putchar('a');
 putchar('r');
 putchar('\n');
 }
-
+/**
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 printPutchar();
