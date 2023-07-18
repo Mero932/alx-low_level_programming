@@ -1,4 +1,4 @@
-void printPutchar() 
+void printPutchar(void) 
 {
 putchar('_');
 putchar('p');

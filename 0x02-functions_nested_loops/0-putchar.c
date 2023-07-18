@@ -3,7 +3,7 @@
 * - Entry point
 * Return: Always 0 (Success)
 */
-void printPutchar()
+void printPutchar(void)
 {
 putchar('_');
 putchar('p');
