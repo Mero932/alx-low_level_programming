@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+/**
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 
-/* print numbers regardless the sign negative positive zero*/
 int main(void)
 {
 /**
