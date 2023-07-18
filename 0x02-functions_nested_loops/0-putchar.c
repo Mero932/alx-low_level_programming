@@ -5,6 +5,7 @@
 */
 void printPutchar()
 {
+putchar('_');
 putchar('p');
 putchar('u');
 putchar('t');
