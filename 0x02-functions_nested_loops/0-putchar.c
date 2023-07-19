@@ -19,8 +19,7 @@ void print_putchar(char c)
 
 int main()
 {
-    // Call the print_putchar function with the character 'A'
-    print_putchar('P');
+       print_putchar('P');
     print_putchar('u');
     print_putchar('t');
     print_putchar('c');
