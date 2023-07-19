@@ -1,30 +1,32 @@
 #include <stdio.h>
-/**
-* printputchar - Entry point
-* Return: Always 0 (Success)
-*/
-/**
-* printputchar - Entry point
-* Return: Always 0 (Success)
-*/
-void printPutchar(void)
+
+void print_putchar(char c)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+ /* 
+  * This function prints a character using the putchar function.
+  * Parameters:
+  * c (char): The character to be printed
+  * Returns:
+  * None
+ */
+       	putchar(c);
 }
+
 /**
 * main - Entry point
 * Return: Always 0 (Success)
 */
-int main(void)
+
+int main()
 {
-printPutchar();
-return (0);
+    // Call the print_putchar function with the character 'A'
+    print_putchar('P');
+    print_putchar('u');
+    print_putchar('t');
+    print_putchar('c');
+    print_putchar('h');
+    print_putchar('a');
+    print_putchar('r');
+    print_putchar('\n');
+    return 0;
 }
