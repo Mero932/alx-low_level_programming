@@ -6,10 +6,7 @@
 * Returns:
 * None
 */
-void print_putchar(char c)
-{
-putchar(c);
-}
+
 /**
 * main - Entry point
 * Return: Always 0 (Success)
