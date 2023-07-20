@@ -1,12 +1,31 @@
 #include <stdio.h>
-#include <main.h>
+//#include <main.h>
+int _isupper(int c)
+{
+    if (c >= 'A' && c <= 'Z') {
+        return 1; 
+        putchar('\n');
+        
+    } else {
+        return 0;
+
+    putchar('\n');    }
+
+}
+
 int main(void)
 {
     char c;
 
     c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
+    putchar ('A');
+    putchar (':');
+    putchar ('1');
+    putchar ('\n');
     c = 'a';
-    printf("%c: %d\n", c, _isupper(c));
+    putchar ('a');
+    putchar (':');
+    putchar ('0');
+    putchar ('\n');
     return (0);
 }
