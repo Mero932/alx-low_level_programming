@@ -15,17 +15,12 @@ int _isupper(int c)
 
 int main(void)
 {
+   int main(void)
+{
     char c;
 
     c = 'A';
-    putchar ('A');
-    putchar (':');
-    putchar ('1');
-    putchar ('\n');
-    c = 'a';
-    putchar ('a');
-    putchar (':');
-    putchar ('0');
-    putchar ('\n');
-    return (0);
+    _isupper();
+
+    	return (0);
 }
