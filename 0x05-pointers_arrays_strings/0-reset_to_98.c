@@ -9,19 +9,20 @@ void reset_to_98(int *n)
     {*n = 98;}
 }
 
-int main (void)
+/*int main (void)
 {
      int n;
 
     n = 402;
     printf("n=%d\n", n);
-    /*putchar('n');
+    putchar('n');
     putchar('=');
-    putchar(48+n);*/
+    putchar(48+n);
     reset_to_98(&n);
     printf("n=%d\n", n);
-    /*putchar('n');
+    putchar('n');
     putchar('=');
-    putchar(48+n);*/
+    putchar(48+n);
     return (0);
-}
+  
+    }*/
