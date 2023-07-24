@@ -2,7 +2,6 @@
 #include "main.h"
 /**
 * swap_int - Entry point
-* @n: integer parameter
 * @a: integer parameter
 * @b: integer parameter
 * 
@@ -13,5 +12,4 @@ int n;
 n = *a;
 *a = *b;
 *b = n;
-
 }
