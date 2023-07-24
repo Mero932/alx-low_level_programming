@@ -1,3 +1,8 @@
+void _putchar(char a)
+{
+putchar(a);
+}
+
 int _isupper(int c)
 {
     if (c >= 'A' && c <= 'Z') {
