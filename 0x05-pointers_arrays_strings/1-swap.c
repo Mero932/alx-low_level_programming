@@ -3,8 +3,7 @@
 /**
 * swap_int - Entry point
 * @a: integer parameter
-* @b: integer parameter
-* 
+* @b: integer parameter 
 */
 void swap_int(int *a, int *b)
 {
