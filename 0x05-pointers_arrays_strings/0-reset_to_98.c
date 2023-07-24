@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - reset n to 98
-* n is the memory memort location
+* reset_to_98  - reset n to 98
+* @n int parameter 
 * *n is the pointer
 * Return: Always 0 (Success)
 */
