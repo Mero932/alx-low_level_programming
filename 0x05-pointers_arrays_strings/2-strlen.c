@@ -3,7 +3,6 @@
 /**
 * _strlen - calculate the length of the string
 * @s: string
-* @counter: integer parameter
 * Return: return counters
 */
 
