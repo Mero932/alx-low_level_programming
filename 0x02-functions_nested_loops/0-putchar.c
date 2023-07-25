@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
-* This function prints a character using the putchar function.
-* Parameters:
-* c (char): The character to be printed
-* Returns:
+* _putchar - This function prints a character using the putchar function.
+*
+* c : character parameter
+* Returns: always 0
 * None
 */
 
 /**
 * main - Entry point
+* c: character parameter
 * Return: Always 0 (Success)
 */
 
