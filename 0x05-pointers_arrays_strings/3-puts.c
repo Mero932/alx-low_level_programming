@@ -14,4 +14,5 @@ for (counter=0; *s != '\0'; s++)
 counter ++;
 _putchar(*s);
 }
+_putchar('\n');
 }
