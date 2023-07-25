@@ -3,7 +3,7 @@
 #include "main.h"
 /**
 * print_rev - reverse printed  characters
-* @i: integer parameter
+* @s: character string 
 *
 * Return: Always 0 (Success)
 */
