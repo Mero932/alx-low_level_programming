@@ -3,7 +3,6 @@
 #include "main.h"
 /**
 * print_alphabet - lower case with a line between.
-* @a: character indicator for letters
 */
 
 void print_alphabet(void)
