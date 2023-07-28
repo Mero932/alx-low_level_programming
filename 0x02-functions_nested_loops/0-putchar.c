@@ -3,8 +3,6 @@
 #include "main.h"
 /**
 * main - Entry point
-* @str: character string
-* @i: integer counter
 * Return: Always 0 (Success)
 */
 
