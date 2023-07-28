@@ -2,13 +2,21 @@
 #include <unistd.h>
 #include "main.h"
 /**
-* _putchar - This function prints a character using the putchar function.
-*
-* @c : character parameter
-* Return: 1 (success)
-*        -1 (failure)
+* main - Entry point
+* @str: character string
+* @i: integer counter
+* Return: Always 0 (Success)
 */
-int _putchar(char c)
+
+int main(void)
 {
-return (write(1, &c, 1));
+char str[] = "_putchar";
+int i;
+for (i = 0 ; i < 8 ; i++)
+{
+_putchar(str[i]);
+}
+_putchar('\n');
+
+return (0);
 }
