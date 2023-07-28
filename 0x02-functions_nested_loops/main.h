@@ -1,18 +1,8 @@
+#ifndef MAIN_H
+#define MAIN_H
 
-void print_putchar(char c)
-{
-putchar(c);
-}
+#include <stdio.h>
 
-void print_alphabet(void) {
-    int i;
+void _putchar(char c);
 
-    // Print the alphabet in lowercase
-    for (int i=97; i <= 122; i++)
-    {
-       _putchar(i);
-    }
-
-    _putchar(‘\n’);
-}
-
+#endif /* MAIN_H */
