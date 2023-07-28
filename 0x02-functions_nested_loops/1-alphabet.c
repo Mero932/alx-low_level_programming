@@ -2,18 +2,17 @@
 #include <unistd.h>
 #include "main.h"
 /**
-* main - Entry point
-* Return: Always 0 (Success)
+* print_alphabet - lower case with a line between.
+* @a: character indicator for letters
 */
 
-int main(void)
+void print_alphabet(void)
 {
 char a;
-for (a= 'a' ; a <= 'z' ; a++)
+for (a = 'a' ; a <= 'z' ; a++)
 {
 _putchar(a);
 _putchar('\n');
 }
-return (0);
 }
 
