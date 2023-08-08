@@ -13,7 +13,6 @@ char *charArray = malloc(size);
 unsigned int i;
 if (charArray == NULL || charArray == 0 || size == 0)
 {
-printf("Error: Failed to allocate memory for the array\n");
 return (NULL);
 }
 for (i = 0 ; i < size; i++)
