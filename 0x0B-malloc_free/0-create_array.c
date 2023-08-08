@@ -16,9 +16,9 @@ if (charArray == NULL || charArray == 0)
 printf("Error: Failed to allocate memory for the array\n");
 return (NULL);
 }
-for (i = size ; i > size; i--)
+for (i = 0 ; i < size; i++)
 {
 charArray[i] = initChar;
 }
-return (charArray);
+return (initChar);
 }
