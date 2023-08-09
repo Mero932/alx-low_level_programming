@@ -14,7 +14,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (length = 0; str[length] != '\0'; length++)
+for (length = 0; str[length] != '\0' ; length++)
 {
 copy = malloc(length * sizeof(*str) + 1);
 if (copy == 0)
