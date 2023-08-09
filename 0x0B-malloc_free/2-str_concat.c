@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-*str_concat: concatenates two strings and returns the result.
+*str_concat - concatenates two strings and returns the result.
 *@s1: (char) The first string
 *@s2: (char) The second string
 *Return: char*: The concatenated string
