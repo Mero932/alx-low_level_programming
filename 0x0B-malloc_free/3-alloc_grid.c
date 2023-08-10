@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
-*alloc_grid - 2-dimensional array of integers
+*alloc_grid - dimensional array of integers
 *@rows: (int)
 *@columns: (int)
 *Return: int**: Pointer to the 2-dimensional array
