@@ -1,22 +1,13 @@
 #include <stdio.h>
-
-/**
- * printFileName: print file
- *
-*/
-void printFileName() {
- printf("Compiled from file: %s\n", __FILE__);
-}
-
-
+#define PRINT_FILE_NAME printf("Compiled from file: %s\n", __FILE__) 
 /**
  * main - print file
- * Return: 0
  *
-*/
-
+ * Return: Always 0
+ *
+ */
 int main()
 {
-printFileName();
+PRINT_FILE_NAME;    
 return (0);
 }
