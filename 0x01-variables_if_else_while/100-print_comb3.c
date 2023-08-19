@@ -21,6 +21,7 @@ continue;
 putchar('0' + i);
 putchar('0' + j);
 putchar(',');
+putchar(' ');
 }
 }
 }
