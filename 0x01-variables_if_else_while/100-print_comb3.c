@@ -8,7 +8,7 @@ int main(void)
 int i, j, start, end;
 start = 0;
 end = 0;
-if (start < 0 || start > 9 || end < 0 || end > 9)
+if (start <= 0 || start > 9 || end <= 0 || end > 9)
 {
 for (i = 0; i < 10; i++)
 {
