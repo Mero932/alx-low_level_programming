@@ -10,9 +10,9 @@ start = 0;
 end = 0;
 if (start <= 0 || start > 9 || end <= 0 || end > 9)
 {
-for (i = 0; i < 10; i++)
+for (i = 0; i <= 9; i++)
 {
-for (j = 0; j < 10; j++)
+for (j = 0; j <= 9; j++)
 {
 if (i > j || i == j)
 {
