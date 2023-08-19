@@ -22,8 +22,8 @@ putchar('0' + i);
 putchar('0' + j);
 putchar(',');
 }
+}
+}
 putchar('\n');
-}
-}
 return (0);
 }
