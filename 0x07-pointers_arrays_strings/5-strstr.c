@@ -4,6 +4,8 @@
  *
  * @haystack: char
  * @needle: char
+ *
+ * Return: (NULL) failure, (haystack) success
  */
 char *_strstr(char *haystack, char *needle)
 {
