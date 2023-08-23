@@ -5,7 +5,6 @@
 * @c: char
 * Return: Always 0 (Success)
 */
-
 char *_strchr(char *s, char c)
 {
 int ptr = 0;
@@ -19,4 +18,3 @@ ptr++;
 }
 return ('\0');
 }
-
