@@ -18,7 +18,7 @@ for (i = 0; i < size; i++)
 diag2Sum += a[i * size + (size - 1 - i)];
 }
 printf("%d", diag1Sum);
-printf(",");
+printf(", ");
 printf("%d\n", diag2Sum);
 }
 
