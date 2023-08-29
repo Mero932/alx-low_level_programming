@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef LISTS_H
+#define LISTS_H
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
