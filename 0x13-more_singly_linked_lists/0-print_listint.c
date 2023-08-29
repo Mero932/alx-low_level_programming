@@ -12,6 +12,7 @@ while (h != NULL)
 printf("%d ", h->n);
 h = h->next;
 count++;
+printf("\n");
 }
 return (count);
 }
