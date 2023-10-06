@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
 *free_grid - 2D grid
-*@s1: (cint) 
-*@s2: (cint) The second string
+*@grid: (int) 
+*@height: (int) The second string
 */
 void free_grid(int **grid, int height)
 {
@@ -19,4 +19,3 @@ free(grid[i]);
 }
 free(grid);
 }
-
