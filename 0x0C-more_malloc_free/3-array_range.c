@@ -26,7 +26,7 @@ return (NULL);
 }
 for (i = 0; i < size; i++)
 {
-array[i] = min++;
+array[i] = min + i;
 }
 return (array);
 }
