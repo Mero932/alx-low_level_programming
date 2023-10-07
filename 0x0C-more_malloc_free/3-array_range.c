@@ -15,7 +15,7 @@ int i;
 int size;
 int *array;
 size = max - min + 1;
-array = (int *)malloc(size * sizeof(int));
+array = (int *)malloc(size *sizeof(int));
 if (array == NULL)
 {
 return (NULL);
