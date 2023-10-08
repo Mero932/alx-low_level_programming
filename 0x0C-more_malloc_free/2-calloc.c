@@ -12,9 +12,8 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 unsigned int totalSize;
-void *ptr;
 totalSize = nmemb * size;
-*ptr = malloc(totalSize);
+void *ptr = malloc(totalSize);
 if (ptr == NULL)
 {
 return (NULL);
