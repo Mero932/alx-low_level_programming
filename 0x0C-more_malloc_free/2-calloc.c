@@ -11,14 +11,12 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int totalSize;
-totalSize = nmemb * size;
-void *ptr = malloc(totalSize);
+void *ptr = malloc(nmemb *size);
 if (ptr == NULL)
 {
 return (NULL);
 }
-memset(ptr, 0, totalSize);
+memset(ptr, 0, nmemb *size);
 return (ptr);
 }
 
