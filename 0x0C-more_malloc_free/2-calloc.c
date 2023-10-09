@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+char *_memset(char *s, char b, unsigned int n)
+{
+char *ptr = s;
+while (n--) 
+	*s++ = b;
+return (ptr);
+}
 /**
  * _calloc - prints buffer in hexa
  * @nmemb: the address of memory to print
@@ -11,12 +18,13 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *ptr = malloc(nmemb * size);
-if (ptr == NULL)
-{
+void *m;
+if (size ==0 || nmemb ==0)
 return (NULL);
-}
-memset(ptr, 0, nmemb * size);
-return (ptr);
+m = malloc(sizeof(int) *nmemb);
+if (m == 0)
+return (NULL);
+_memset (m, 0, sizeof (int) *nmemb);
+return (m);
 }
 
