@@ -5,8 +5,8 @@
 
 /**
  * string_nconcat - check the code
- * @S1: char
- * @S2: char
+ * @s1: char
+ * @s2: char
  * @n: unsigned int
  * Return: (NULL) (new_str).
  */
