@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib>
 #include "dog.h"
 /**
  * free_dog - frees the memory allocated for a dog object.
@@ -9,7 +10,10 @@ void free_dog(dog_t *d)
 {
 if (d != NULL)
 {
+if (d->name)
 free(d->name);
+if (d->owner)
+free(d->owner);
 free(d);
 }
 }
