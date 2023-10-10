@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include "dog.h"
 
@@ -9,26 +10,24 @@
  * @owner: char
  * Return: (NULL)
  */
-dog_t *new_dog(char *name, float age, char *owner)
+dog_t* new_dog(char* name, float age, char* owner) 
 {
-dog_t *newDog = malloc(sizeof(dog_t));
-if (newDog == NULL)
-{
+dog_t* dog = (dog_t*) malloc(sizeof(dog_t));
+if (dog == NULL) 
+{  
+printf("Memory allocation failed.\n");
+return NULL;
+}
+dog->name = (char*) malloc(strlen(name) + 1);
+dog->owner = (char*) malloc(strlen(owner) + 1);
+if (dog->name == NULL || dog->owner == NULL) 
+{  
+printf("Memory allocation failed.\n");
+free(dog);  
 return (NULL);
 }
-newDog->name = strdup(name);
-if (newDog->name == NULL)
-{
-free(newDog);
-return (NULL);
-}
-newDog->age = age;
-newDog->owner = strdup(owner);
-if (newDog->owner == NULL)
-{
-free(newDog->name);
-free(newDog);
-return (NULL);
-}
-return (newDog);
+strcpy(dog->name, name);
+strcpy(dog->owner, owner);
+dog->age = age;
+return (dog); 
 }
