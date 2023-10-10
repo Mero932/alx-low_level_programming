@@ -4,8 +4,9 @@
 #include <stdlib.h>
 /**
  * *_memset - return the ptr value
- * @ptr: int
- * 
+ * @s: char
+ * @b: char
+ * @n: unsigned int
  *
  * Return: ptr integer
  */
@@ -32,7 +33,7 @@ return (NULL);
 m = malloc(sizeof(int) * nmemb);
 if (m == 0)
 return (NULL);
-_memset(m, 0, sizeof (int) * nmemb);
+_memset(m, 0, sizeof(int) * nmemb);
 return (m);
 }
 
