@@ -1,5 +1,7 @@
-#include <stdio.h>  
-#include "calc.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include "3-calc.h"
 /**
  * Returns the sum of two integers.
  *

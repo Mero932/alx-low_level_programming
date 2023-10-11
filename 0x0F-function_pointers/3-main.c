@@ -1,15 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include "3-calc.h"
 int main(int argc, char *argv[]) 
 {
+int num1;
+int num2;
+int result;
+char operator;
 if (argc != 4) 
 {
 printf("Usage: ./arithmetic <num1> <operator> <num2>\n");
 return (1);
-}
-int num1 = atoi(argv[1]);
-int num2 = atoi(argv[3]);
-char operator = argv[2][0];
-int result;
-if (operator == '+') 
+} 
+num1 = atoi(argv[1]);
+num2 = atoi(argv[3]);
+operator = argv[2][0];
+if (operator == '+')
 {
 result = num1 + num2;
 } 
