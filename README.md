@@ -1,1 +1,1 @@
-static librries 2nd trial -
+fuction pointers -
