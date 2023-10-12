@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "vardiac_functions.h"
+#include "variadic_functions.h"
 /**
  * main - check the code
  *
