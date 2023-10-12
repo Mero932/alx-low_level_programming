@@ -2,6 +2,7 @@
 #include <stdarg.h>
  /**
  * print_strings - Print string followed by a new line.
+ * 
  * @*separator: const char
  * @n: The number of arguments to print.
  */
