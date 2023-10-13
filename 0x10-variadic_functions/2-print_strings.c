@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
- /**
- * print_strings - Print string followed by a new line.
- * 
- * @*separator: const char
- * @n: The number of arguments to print.
- */
+/**
+* print_strings - print string with separator
+* @separator: const char
+* @n: The number of arguments to print.
+*
+* Return: void
+*/
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 va_list args;
