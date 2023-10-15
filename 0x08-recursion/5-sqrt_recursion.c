@@ -3,43 +3,29 @@
  * _sqrt_recursion - Calculates the square root of a number
  *
  * @n: int for which the square root needs to be calculated.
- * @start: int
- * @end: int
- * Return - (n) The square root of n perfect square, (-1) otherwise, mid
+ * @square: int
+ * Return - sqrt helper n
  */
-int sqrt_helper(int n, int start, int end);
+int sqrt_helper(int n, int square);
 int _sqrt_recursion(int n)
 {
-   if (n < 0)
-        return -1;
-    if (n == 0 || n == 1)
-        return n;
-
-    return sqrt_helper(n, 1, n);
+return (sqrt_helper(n, 1));
 }
 /**
- * sqrt_helper - sqrt helper
- * @n: int
- * @start: int
- * @end: int
- * Return - (mid) The square root of n perfect square, (-1) otherwise, mid
+ *sqrt_helper - sqrt helper
+ *@n: int
+ *@squre: int
+ *
+ *Return: square, -1
  */
-int sqrt_helper(int n, int start, int end)
+int sqrt_helper(int n, int square)
 {
-int mid;
-   mid = (start + end) / 2;
-
-    if (mid * mid == n)
-        return mid;
-    if (mid * mid < n)
-    {
-        if ((mid + 1) * (mid + 1) > n)
-            return mid;
-        else
-            return sqrt_helper(n, mid + 1, end);
-    }
-    else
-    {
-        return sqrt_helper(n, start, mid - 1);
-    }
+if (square * square == n)
+return (square);
+if (square * square < n)
+{
+return (sqrt_helper(n, square + 1));
+}
+else
+return (-1);
 }
