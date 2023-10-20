@@ -1,3 +1,8 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+/*
+ 
 /**
  * Calculates the length of a null-terminated string.
  *
@@ -13,7 +18,9 @@ int strlen(const char* str)
     }
  
     return length;
-}/**
+}*/
+
+/**
  * print_list - Prints all the elements of a linked list.
  *
  * @h: int  A pointer to the head of the linked list.
