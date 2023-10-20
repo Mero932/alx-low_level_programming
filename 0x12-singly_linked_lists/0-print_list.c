@@ -8,7 +8,7 @@
  * @param str: A pointer to the null-terminated string.
  * @return: The length of the string.
  */
-int _strlen(const char* str) 
+int _strlen(char* s) 
 {
 int length = 0;
 if(!s)
