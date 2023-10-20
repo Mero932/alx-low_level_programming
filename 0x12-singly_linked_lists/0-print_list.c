@@ -1,4 +1,19 @@
 /**
+ * Calculates the length of a null-terminated string.
+ *
+ * @param str: A pointer to the null-terminated string.
+ * @return: The length of the string.
+ */
+int strlen(const char* str) 
+{
+    int length = 0;
+ 
+      while (str[length] != '\0') {
+        length++;
+    }
+ 
+    return length;
+}/**
  * print_list - Prints all the elements of a linked list.
  *
  * @h: int  A pointer to the head of the linked list.
