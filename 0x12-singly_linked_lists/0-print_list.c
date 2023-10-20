@@ -13,7 +13,7 @@ int _strlen(const char* str)
 int length = 0;
 if(!s)
 return(0);
-while (*ss)
+while (*s++)
 length ++;
 return (length);
 }
