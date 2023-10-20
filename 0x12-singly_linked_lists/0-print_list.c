@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "lists.h"
 /**
  * Calculates the length of a null-terminated string.
  *
@@ -12,7 +13,7 @@ int _strlen(const char* str)
 int length = 0;
 if(!s)
 return(0);
-while (*ss)[
+while (*ss)
 length ++;
 return (length);
 }
