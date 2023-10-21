@@ -21,7 +21,7 @@ return (0);
 }
 /**
  * is_palindrome - check if the string is empty
- *
+ * @s: int
  * Return: function vlue
  */
 int is_palindrome(char *s)
