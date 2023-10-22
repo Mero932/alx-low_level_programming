@@ -1,74 +1,61 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stddef.h>
 #include "3-calc.h"
+
 /**
- * Returns the sum of two integers.
+ * op_add - returns the sum of a and b
+ * @a: first integer
+ * @b: second integer
  *
- * @a: int
- * @b: int
- * Return: The sum of a and b.
+ * Return: sum of a and b
  */
-int op_add(int a, int b) 
+int op_add(int a, int b)
 {
-return (a + b);
+    return (a + b);
 }
- 
+
 /**
- * op_sub -Returns the difference of two integers.
+ * op_sub - returns the difference of a and b
+ * @a: first integer
+ * @b: second integer
  *
- * @a: int
- * @b: int
- * Return: The difference of a and b.
+ * Return: difference of a and b
  */
-int op_sub(int a, int b) 
+int op_sub(int a, int b)
 {
-return (a - b);
+    return (a - b);
 }
- 
+
 /**
- * op_mul - Returns the product of two integers.
+ * op_mul - returns the product of a and b
+ * @a: first integer
+ * @b: second integer
  *
- * @a: int
- * @b: int
- * Return: The product of a and b, 
+ * Return: product of a and b
  */
-int op_mul(int a, int b) 
+int op_mul(int a, int b)
 {
-return (a * b);
+    return (a * b);
 }
- 
+
 /**
- * op_div - Returns the result of the division of two integers.
+ * op_div - returns the result of the division of a by b
+ * @a: first integer
+ * @b: second integer
  *
- * @a: int
- * @b: int
- * Return: The result of the division of a by b, (0) exception
+ * Return: result of division of a by b
  */
-int op_div(int a, int b) 
+int op_div(int a, int b)
 {
-if (b == 0) 
-{  
-printf("Error: Division by zero.\n");
-return (0);  
+    return (a / b);
 }
-return (a / b);
-}
- 
+
 /**
- * op_mod - Returns the remainder of the division of two integers.
+ * op_mod - returns the remainder of the division of a by b
+ * @a: first integer
+ * @b: second integer
  *
- * @a: int
- * @b: int
- * Return: The remainder of the division of a by b, (0) exception
- * 
+ * Return: remainder of division of a by b
  */
-int op_mod(int a, int b) 
+int op_mod(int a, int b)
 {
-if (b == 0) 
-{  
-printf("Error: Division by zero.\n");
-return (0); 
-}
-return (a % b);
+    return (a % b);
 }
