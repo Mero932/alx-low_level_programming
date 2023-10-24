@@ -1,17 +1,19 @@
 #include "lists.h"
 /**
- * delete_nodeint_at_index - insert node at a given position
- * @head: int
- * @index: unsigned int
- * Return: -1, 1.
+ * delete_nodeint_at_index - delete any node
+ *@head: unsigned int
+ * @index: int
+ * Return: 1, -1.
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
+listint_t *current;
+listint_t * prev;
 unsigned int i;
 if (*head == NULL)
 return (-1);
-listint_t *current = *head;
-listint_t *prev = NULL;
+current = *head;
+prev = NULL;
 if (index == 0)
 {
 *head = current->next;
@@ -29,3 +31,4 @@ prev->next = current->next;
 free(current);
 return (1);
 }
+
