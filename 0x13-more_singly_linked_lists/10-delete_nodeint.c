@@ -12,14 +12,15 @@ listint_t * prev;
 unsigned int i;
 if (*head == NULL)
 return (-1);
-current = *head;
 prev = NULL;
-if (index == 0)
+if (!index)
 {
+current = *head;
 *head = current->next;
 free(current);
 return (1);
 }
+current = *head;
 for (i = 0; current != NULL && i < index; i++)
 {
 prev = current;
