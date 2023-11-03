@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 /**
- * create_file - creates a file 
+ * create_file - creates a file
  * @filename: the name of the file to create
  * @text_content: the text content to write to the file
  *
@@ -31,4 +31,3 @@ return (-1);
 close(fd);
 return (1);
 }
-
