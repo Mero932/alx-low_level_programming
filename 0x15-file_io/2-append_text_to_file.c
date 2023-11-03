@@ -7,13 +7,13 @@
  *
  * @filename: const char.
  * @text_content: char
- * Return: 1 
+ * Return: 1
  */
-int append_text_to_file(const char *filename, char *text_content) 
+int append_text_to_file(const char *filename, char *text_content)
 {
 FILE *file;
 file = fopen(filename, "a");
-if (file == NULL) 
+if (file == NULL)
 {
 printf("Failed to open the file.\n");
 return (0);
