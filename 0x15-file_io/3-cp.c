@@ -4,6 +4,13 @@
 #include <unistd.h>
 #include <errno.h>
 #define BUFFER_SIZE 1024
+/**
+ * copy_file - copy file
+ *
+ * @file_from: char.
+ * @file_to: char
+ * Return: 1
+ */
 void copy_file(char *file_from, char *file_to)
 {
 int fd_from, fd_to, read_bytes, write_bytes;
@@ -20,8 +27,7 @@ if (fd_to == -1)
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 exit(99);
 }
-do
-{
+do {
 read_bytes = read(fd_from, buffer, BUFFER_SIZE);
 if (read_bytes == -1)
 {
@@ -34,8 +40,7 @@ if (write_bytes == -1)
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 exit(99);
 }
-} 
-while (read_bytes > 0);
+} while (read_bytes > 0);
 if (close(fd_from) == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_from);
@@ -47,6 +52,13 @@ dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_to);
 exit(100);
 }
 }
+/**
+ * main - main function
+ *
+ * @argc: int.
+ * @argv: char
+ * Return: 0
+ */
 int main(int argc, char **argv)
 {
 if (argc != 3)
