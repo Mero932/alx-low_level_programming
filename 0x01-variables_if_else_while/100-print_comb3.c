@@ -5,21 +5,15 @@
 */
 int main(void)
 {
-int i, j, start, end;
-start = 0;
-end = 0;
-if (start <= 0 || start > 9 || end <= 0 || end > 9)
+int i, j;
+for (i = 0; i <= 8; i++)
 {
-for (i = 0; i <= 9; i++)
+for (j = i + 1; j <= 9; j++)
 {
-for (j = 0; j <= 9; j++)
+putchar(i + '0');
+putchar(j + '0');
+if (i != 8 || j != 9)
 {
-if (i > j || i == j)
-{
-continue;
-}
-putchar('0' + i);
-putchar('0' + j);
 putchar(',');
 putchar(' ');
 }
