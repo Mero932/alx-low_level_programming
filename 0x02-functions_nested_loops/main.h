@@ -11,4 +11,5 @@ int _isalpha(int c);
 int print_sign(int n);
 int add(int, int);
 void times_table(void);
+int _abs(int);
 #endif /* MAIN_H */
