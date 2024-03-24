@@ -1,22 +1,25 @@
 #include "main.h"
 /**
-* jack_bauer - Entry point
-* Return: Always 0 (Success)
-*/
-void jack_bauer(void)
+ * times_table - check the code
+ *
+ * Return: Always 0.
+ */
+void times_table(void)
 {
-int i, j;
-for (i = 0; i < 24 ; i++)
+int i
+i = 0;
+while (i <= 9)
 {
-for (j = 0; j < 60 ; j++)
-{
-_putchar((i / 10) + '0');
-_putchar((i % 10) + '0');
-_putchar (':');
-_putchar((j / 10) + '0');
-_putchar((j % 10) + '0');
+_putchar('0' + i);
+_putchar(' ');
+_putchar('x');
+_putchar(' ');
+_putchar('9');
+_putchar(' ');
+_putchar('=');
+_putchar(' ');
+_putchar('0' + i*9);
 _putchar('\n');
+i++;
 }
-}
-return (0);
 }
