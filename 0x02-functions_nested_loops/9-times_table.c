@@ -23,6 +23,7 @@ result = i * 9;
 *_putchar('0' + i * 9);
 */
 _putchar('0' + result / 10);
+_putchar(',');
 _putchar('0' + result % 10);
 _putchar('\n');
 i++;
