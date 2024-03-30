@@ -1,14 +1,10 @@
-void _putchar(char a)
-{
-putchar(a);
-}
+#ifndef MAIN_H
+#define MAIN_H
 
-int _isupper(int c)
-{
-    if (c >= 'A' && c <= 'Z') {
-        return 1;
-    } else {
-        return 0;
-    }
-}
+#include <stdio.h>
 
+int _putchar(char c);
+int _isupper(int c);
+
+
+#endif /* MAIN_H */
